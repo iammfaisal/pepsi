@@ -25,7 +25,7 @@ text-decoration: none;
     position: absolute;
     width: 60px;
     height: 60px;
-    background-image: url(./logo.png);
+    background-image: url(./Assets/Section4/logo.png);
     margin-left: 40px;
 }
 
@@ -34,6 +34,7 @@ position: absolute;
 display: flex;
 align-items: center;
 margin-left: 80px;
+
 }
 
 
@@ -48,6 +49,59 @@ ul li a{
     font-weight: bolder;
     margin-left: 70px;
 }
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #0065C3;
+    display: flex;
+    }
+
+
+    
+    .section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Assets/section1/background.png);
+    display: flex;
+    
+align-items: end;
+
+    }    
+
+.sec-1l{
+    
+    width: 63.281vw;
+    height: 53.125vw;
+    max-width: 649px;
+    max-height: 534px;
+    left: 0;
+    bottom: 0;
+    background-image: url(./Assets/section1/pzs-can-old@2x.png);
+    background-size: auto 115%;
+
+}
+ .r-cont{
+    width: 50%;
+    height: 100%;
+
+
+ }
+
+.items{
+
+    display: flex;
+    height: 56.41vw;
+    width: 81.282vw;
+    max-height: 282px;
+    max-width: 422px;
+    background-image: url(./Assets/section1/apple-music-lockup-i-pad-horizontal-mobile.svg);
+    background-size: auto 100%;
+margin: 15%;
+}
+
+
+
 
 .main-container{
 width: 100%;
@@ -67,7 +121,7 @@ display: flex;
 .l-upper {
     width: 400px;
     height: 212.39px;
-    background-image: url(./ul.jpg);
+    background-image: url(./Assets/Section4/ul.jpg);
         background-repeat: no-repeat;
         background-position: center;
         margin: 40px auto 0px auto;           
@@ -88,7 +142,7 @@ justify-content: center;
 .l-down {
     width: 400px;
     height: 203.13px;
-        background-image: url(./ll.jpg);
+        background-image: url(./Assets/Section4/ll.jpg);
         background-repeat: no-repeat;
         background-position: center;
         margin: 40px auto 0px auto;       
@@ -97,7 +151,7 @@ justify-content: center;
 .r-container{
 width: 66%;
 height: 100%;
-background-image: url(./PEP_BWP_D.jpg);
+background-image: url(./Assets/Section4/PEP_BWP_D.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -108,7 +162,5 @@ img{
 display: flex;
 margin-left: auto;
 margin-top: 55%;
-
-
 
 }
